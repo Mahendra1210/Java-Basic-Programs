@@ -13,7 +13,7 @@ public class Sum_of_n_natural_numbers {
 		
 		//for loop
 		for(int i=1; i<=n; i++) {
-			sum = sum+i;
+			sum += i;
 		}
 		System.out.println(sum);
 		sc.close();
